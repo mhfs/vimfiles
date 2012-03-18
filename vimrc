@@ -17,6 +17,8 @@ set sidescrolloff=3   " Show 3 columns of context around the cursor.
 set visualbell        " No beeping.
 set noerrorbells      " don't beep
 set autoindent        " make new lines keep current indentation
+set hidden            " Navigate through buffers without vim whinings on unsaved buffers
+set nofoldenable      " No folding
 
 " Remember last location in file, but not for commit messages (see :help last-position-jump)
 autocmd BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
@@ -98,6 +100,9 @@ set statusline=%<\ %f\ %m%r%y%=%30.([%l,%c]\ [%P]\ \ %)
 ""
 " use :w!! to write to a file using sudo if you forgot to 'sudo vim file'
 cmap w!! %!sudo tee > /dev/null %
+
+" Y copies until the end of the line
+nnoremap Y y$
 
 " upper/lower word
 nmap <leader>u mQviwU`Q

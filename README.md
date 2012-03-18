@@ -7,8 +7,8 @@ Installation
 ------------
 
     git clone git://github.com/mhfs/vimfiles.git ~/code/vimfiles/
-    git submodules init
-    git submodules update
+    git submodule init
+    git submodule update
 
     ln -s ~/code/vimfiles/ ~/.vim
     ln -s ~/code/vimfiles/vimrc ~/.vimrc

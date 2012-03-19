@@ -14,6 +14,12 @@ Installation
     ln -s ~/code/vimfiles/vimrc ~/.vimrc
     ln -s ~/code/vimfiles/gvimrc ~/.gvimrc
 
+Customizing
+-----------
+
+You can set custom stuff in `~/.vimrc.after` and `~/.gvimrc.after`. Both are
+sourced if present.
+
 Credits
 -------
 

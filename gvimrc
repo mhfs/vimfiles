@@ -19,3 +19,10 @@ set gcr=n:blinkon0
 
 " some transparency
 set transparency=3
+
+""
+"" Hook for customizations
+""
+if filereadable(expand("~/.gvimrc.after"))
+  source ~/.gvimrc.after
+endif

@@ -174,3 +174,10 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 ""
 autocmd BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown
 autocmd BufNewFile,BufRead *.json set ft=javascript
+
+""
+"" Hook for customizations
+""
+if filereadable(expand("~/.vimrc.after"))
+  source ~/.vimrc.after
+endif

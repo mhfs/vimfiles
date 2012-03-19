@@ -176,6 +176,13 @@ autocmd BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
 ""
+"" Plugin settings
+""
+
+"" Buffergator
+let g:buffergator_autoexpand_on_split=0
+
+""
 "" Hook for customizations
 ""
 if filereadable(expand("~/.vimrc.after"))

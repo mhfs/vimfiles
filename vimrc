@@ -25,7 +25,7 @@ autocmd BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"")
   \| exe "normal! g`\"" | endif
 
 " exit insert mode on write and focus lost
-autocmd BufWrite,FocusLost,TabLeave * stopinsert
+autocmd BufWrite,TabLeave * stopinsert
 
 " Turn on filetype plugins (:help filetype-plugin)
 filetype plugin indent on

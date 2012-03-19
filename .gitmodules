@@ -46,3 +46,6 @@
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-railscasts"]
+	path = bundle/vim-railscasts
+	url = git://github.com/jpo/vim-railscasts-theme.git

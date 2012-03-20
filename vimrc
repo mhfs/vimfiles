@@ -182,9 +182,6 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 "" Buffergator
 let g:buffergator_autoexpand_on_split = 0
 
-"" Auto Pairs
-let g:AutoPairsShortcuts = 0
-
 ""
 "" Hook for customizations
 ""

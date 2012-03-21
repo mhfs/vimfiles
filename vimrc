@@ -127,6 +127,7 @@ nmap <leader>b :BuffergatorToggle<CR>
 " Fugitive mappings
 map <leader>gb :Gblame<CR>
 map <leader>gs :Gstatus<CR>
+map <leader>gc :Gcommit<CR>
 
 " Set ruby file type
 map <leader>rf :set ft=ruby<CR>

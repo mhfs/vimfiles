@@ -183,6 +183,9 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 "" Buffergator
 let g:buffergator_autoexpand_on_split = 0
 
+"" NERDCommenter
+let g:NERDSpaceDelims = 1      " add space to the right of the comment delimiter
+
 ""
 "" Hook for customizations
 ""

@@ -4,9 +4,6 @@
 [submodule "bundle/ZoomWin"]
 	path = bundle/ZoomWin
 	url = git://github.com/vim-scripts/ZoomWin.git
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
-	url = git://github.com/jiangmiao/auto-pairs.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
@@ -46,3 +43,6 @@
 [submodule "bundle/vim-railscasts"]
 	path = bundle/vim-railscasts
 	url = git://github.com/jpo/vim-railscasts-theme.git
+[submodule "bundle/vim-smartinput"]
+	path = bundle/vim-smartinput
+	url = git://github.com/kana/vim-smartinput.git

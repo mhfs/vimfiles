@@ -7,6 +7,7 @@ call pathogen#infect()
 "" Basic Setup
 ""
 colorscheme solarized
+set background=dark   " Prefer dark background schema
 set nocompatible      " Use vim, no vi defaults
 set number            " Show line numbers
 set ruler             " Show line and column number
@@ -185,6 +186,10 @@ let g:buffergator_autoexpand_on_split = 0
 
 "" NERDCommenter
 let g:NERDSpaceDelims = 1      " add space to the right of the comment delimiter
+
+"" Powerline
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_colorscheme = 'skwp'
 
 ""
 "" Hook for customizations

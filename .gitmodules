@@ -61,3 +61,6 @@
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
 	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git@github.com:digitaltoad/vim-jade.git

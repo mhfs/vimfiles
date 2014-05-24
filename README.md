@@ -14,6 +14,11 @@ Installation
     ln -s ~/code/vimfiles/vimrc ~/.vimrc
     ln -s ~/code/vimfiles/gvimrc ~/.gvimrc
 
+Updating Modules
+----------------
+
+    git submodule foreach git pull origin master
+
 Customizing
 -----------
 

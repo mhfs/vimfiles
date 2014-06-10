@@ -191,6 +191,9 @@ let g:NERDSpaceDelims = 1      " add space to the right of the comment delimiter
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_colorscheme = 'skwp'
 
+"" NERDTree
+let NERDTreeMinimalUI = 1"
+
 ""
 "" Hook for customizations
 ""

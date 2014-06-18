@@ -194,6 +194,9 @@ let g:Powerline_colorscheme = 'skwp'
 "" NERDTree
 let NERDTreeMinimalUI = 1"
 
+"" Airline
+let g:airline_powerline_fonts=1
+
 ""
 "" Hook for customizations
 ""

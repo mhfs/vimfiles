@@ -113,9 +113,6 @@ nmap <leader>l mQviwu`Q
 nmap <leader>U mQgewvU`Q
 nmap <leader>L mQgewvu`Q
 
-" find merge conflict markers
-nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
-
 " Kwbd mappings
 map <leader>x :Kwbd<CR>
 
@@ -132,6 +129,9 @@ map <leader>gc :Gcommit<CR>
 
 " Set ruby file type
 map <leader>rf :set ft=ruby<CR>
+
+" UltiSnips
+map <leader>s :UltiSnipsEdit<CR>
 
 " Map Command-# to switch tabs
 map  <D-0> 0gt
@@ -187,15 +187,14 @@ let g:buffergator_autoexpand_on_split = 0
 "" NERDCommenter
 let g:NERDSpaceDelims = 1      " add space to the right of the comment delimiter
 
-"" Powerline
-let g:Powerline_symbols = 'fancy'
-let g:Powerline_colorscheme = 'skwp'
-
 "" NERDTree
 let NERDTreeMinimalUI = 1"
 
 "" Airline
 let g:airline_powerline_fonts=1
+
+"" UltiSnips
+let g:UltiSnipsEditSplit="vertical"
 
 ""
 "" Hook for customizations

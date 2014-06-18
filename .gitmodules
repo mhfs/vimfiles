@@ -43,9 +43,6 @@
 [submodule "bundle/vim-railscasts"]
 	path = bundle/vim-railscasts
 	url = git://github.com/jpo/vim-railscasts-theme.git
-[submodule "bundle/vim-smartinput"]
-	path = bundle/vim-smartinput
-	url = git://github.com/kana/vim-smartinput.git
 [submodule "bundle/vim-textobj-rubyblock"]
 	path = bundle/vim-textobj-rubyblock
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
@@ -67,3 +64,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = git@github.com:Townk/vim-autoclose.git

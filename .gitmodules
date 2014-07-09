@@ -67,3 +67,6 @@
 [submodule "bundle/UltiSnips"]
 	path = bundle/UltiSnips
 	url = git@github.com:SirVer/ultisnips.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = git@github.com:fatih/vim-go.git

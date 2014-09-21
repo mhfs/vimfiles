@@ -57,16 +57,19 @@
 	url = git://github.com/rodjek/vim-puppet.git
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
-	url = git@github.com:digitaltoad/vim-jade.git
+	url = git://github.com/digitaltoad/vim-jade.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
 [submodule "bundle/vim-autoclose"]
 	path = bundle/vim-autoclose
-	url = git@github.com:Townk/vim-autoclose.git
+	url = git://github.com/Townk/vim-autoclose.git
 [submodule "bundle/UltiSnips"]
 	path = bundle/UltiSnips
-	url = git@github.com:SirVer/ultisnips.git
+	url = git://github.com/SirVer/ultisnips.git
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
-	url = git@github.com:fatih/vim-go.git
+	url = git://github.com/fatih/vim-go.git
+[submodule "bundle/vim-ansible-yaml"]
+	path = bundle/vim-ansible-yaml
+	url = https://github.com/chase/vim-ansible-yaml.git

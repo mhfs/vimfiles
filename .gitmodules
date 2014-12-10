@@ -73,3 +73,6 @@
 [submodule "bundle/vim-ansible-yaml"]
 	path = bundle/vim-ansible-yaml
 	url = https://github.com/chase/vim-ansible-yaml.git
+[submodule "bundle/Vim-Jinja2-Syntax"]
+	path = bundle/Vim-Jinja2-Syntax
+	url = git@github.com:Glench/Vim-Jinja2-Syntax.git

@@ -38,7 +38,7 @@ set nowrap                        " don't wrap lines
 set tabstop=2                     " a tab is two spaces
 set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
-set list                          " Show invisible characters
+set nolist                        " Hide invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
 
 if exists("g:enable_mvim_shift_arrow")
@@ -133,27 +133,37 @@ map <leader>rf :set ft=ruby<CR>
 " UltiSnips
 map <leader>s :UltiSnipsEdit<CR>
 
-" Map Command-# to switch tabs
+" Map Command-# and Leader-# to switch tabs
 map  <D-0> 0gt
 imap <D-0> <Esc>0gt
+map  <leader>0 0gt
 map  <D-1> 1gt
 imap <D-1> <Esc>1gt
+map  <leader>1 1gt
 map  <D-2> 2gt
 imap <D-2> <Esc>2gt
+map  <leader>2 2gt
 map  <D-3> 3gt
 imap <D-3> <Esc>3gt
+map  <leader>3 3gt
 map  <D-4> 4gt
 imap <D-4> <Esc>4gt
+map  <leader>4 4gt
 map  <D-5> 5gt
 imap <D-5> <Esc>5gt
+map  <leader>5 5gt
 map  <D-6> 6gt
 imap <D-6> <Esc>6gt
+map  <leader>6 6gt
 map  <D-7> 7gt
 imap <D-7> <Esc>7gt
+map  <leader>7 7gt
 map  <D-8> 8gt
 imap <D-8> <Esc>8gt
+map  <leader>8 8gt
 map  <D-9> 9gt
 imap <D-9> <Esc>9gt
+map  <leader>9 9gt
 
 ""
 "" Auto Strip

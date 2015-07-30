@@ -76,3 +76,6 @@
 [submodule "bundle/Vim-Jinja2-Syntax"]
 	path = bundle/Vim-Jinja2-Syntax
 	url = git://github.com/Glench/Vim-Jinja2-Syntax.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git

@@ -1,7 +1,47 @@
 ""
-"" Load Pathogen
+"" Load Vundle
 ""
-call pathogen#infect()
+"" from https://github.com/VundleVim/Vundle.vim#quick-start
+""
+set nocompatible              " be iMproved, required by vundle
+filetype off                  " required by vundle
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
+
+Plugin 'rgarver/Kwbd.vim'
+Plugin 'vim-scripts/ZoomWin'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'edsono/vim-matchit'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'kana/vim-textobj-user'
+Plugin 'groenewege/vim-less'
+Plugin 'rodjek/vim-puppet'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'bling/vim-airline'
+Plugin 'Townk/vim-autoclose'
+Plugin 'SirVer/ultisnips'
+Plugin 'fatih/vim-go'
+Plugin 'chase/vim-ansible-yaml'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'majutsushi/tagbar'
+
+call vundle#end()            " required by vundle
+filetype plugin indent on    " required by vundle
 
 ""
 "" Basic Setup

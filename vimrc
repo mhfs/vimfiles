@@ -14,7 +14,6 @@ Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle, required
 
 Plugin 'rgarver/Kwbd.vim'
 Plugin 'vim-scripts/ZoomWin'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'kchmck/vim-coffee-script'
@@ -33,12 +32,15 @@ Plugin 'groenewege/vim-less'
 Plugin 'rodjek/vim-puppet'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'bling/vim-airline'
-Plugin 'Townk/vim-autoclose'
 Plugin 'SirVer/ultisnips'
 Plugin 'fatih/vim-go'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'majutsushi/tagbar'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-commentary'
+Plugin 'Raimondi/delimitMate'
 
 call vundle#end()            " required by vundle
 filetype plugin indent on    " required by vundle

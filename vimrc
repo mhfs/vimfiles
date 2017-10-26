@@ -41,6 +41,16 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'Raimondi/delimitMate'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'hashivim/vim-terraform'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'jparise/vim-graphql'
 
 call vundle#end()            " required by vundle
 filetype plugin indent on    " required by vundle
@@ -228,6 +238,7 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 ""
 autocmd BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown
 autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.es6 set ft=javascript
 
 ""
 "" Plugin settings
@@ -255,8 +266,16 @@ let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
-
+let g:go_auto_type_info = 1
 let g:go_fmt_command = "goimports"
+
+"" vim-jsx
+let g:jsx_ext_required = 0
+
+"" neocomplete
+set completeopt-=preview
+" let g:neocomplete#enable_auto_close_preview = 1
+let g:neocomplete#enable_at_startup = 1
 
 ""
 "" Hook for customizations

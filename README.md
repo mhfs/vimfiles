@@ -1,3 +1,8 @@
+DEPRECATED
+==========
+
+I no longer use these settings as VIM is no longer my main editor. I have a lighter NVIM setup for sporadic use at https://github.com/mhfs/dotfiles.
+
 MHFS Vimfiles
 =============
 
